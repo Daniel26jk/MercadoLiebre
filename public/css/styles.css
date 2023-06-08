@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    background-color: #ebebeb;
+}
+
+.cabeza{
+    background-color: #EAC926;
+    padding: 20px;
+    
+    top: 0;
+    
+   
+}
+.logoMeli{
+    width: 200px;
+}
+.compra{
+    font-weight: 400;
+    text-align: center;
+}
+.boton{
+    background-color: black;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+}
+.barra{
+    display: none;
+}
+ 
+.barra ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.barra a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding-left: 5px 0;
+    font-size: 17px;
+    
+}
+.buscador{
+    text-align: right;
+    justify-content: space-between;
+    display: flex;
+    max-width: 100px;
+}
+.buscar{
+    position: absolute;
+    top: 4%;
+    right: 5%;
+}
+.logo{
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    background-color: white;
+    height:20px ;
+    padding-left: 1px;
+}
+.visita{
+    margin-left: 13px;
+    
+}
+.texto{
+   
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.nombre-Producto-Mobile{
+    background-color: rgba(0,0,0,0.5);
+    color:#FFF;
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    left: 0px;
+    bottom: 70px;
+    text-align: center;
+    
+}
+.producto h2{
+    width: 40%;
+}
+.parrafos {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.precio{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+   
+}
+.descuento{
+    display: flex;
+    align-self: center;
+    color: #666;
+    font-size: 15px;
+    text-align: center
+
+}
+.figura{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+.circulo{
+    width: 35px;
+    height: 35px;
+    opacity: value;
+    border-radius: 50%;
+    border: 2px solid rgb(152, 189, 152);
+
+}
+.fa-truck {
+    margin-top: 10px;
+    margin-right: 6px;
+    position: absolute;
+    color: rgb(152, 189, 152);
+}   
+
+.producto {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    margin-left: 13px;
+    margin-top: 9px;
+    margin-right: 13px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    
+
+}
+
+.iconoEnvio{
+ display:flex;
+ font-size: 16px;
+ padding: 7px;
+ position: absolute;
+ width: 50px;
+ height: 46px;
+ border: 1px solid #39b54a;
+ background-color: #FFF;
+ border-radius: 50%;
+ right: 40px;
+ margin-bottom: 70px;
+ font-size: 30px;
+ color: #39b54a;
+
+}
+.div-footer-contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 30px;
+    background-color: white;
+}
+.main{
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+}
+.divitem{
+    width: 70%;
+}
+img{
+    width: 80%;
+}
+.visita{
+    text-align: center;
+}
+.footer{
+    padding-top: 29px;
+}
+.footer-todo{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+}
+.section-footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-footer i{
+    font-size: 2em;
+    color: #1259c3;
+}
+
+.section-footer i:hover{
+    color: #424242;
+    cursor: pointer;
+}
+.section-footer p{
+    font-size: 12px;
+}
+
+.copy-footer{
+    font-size: 12px;
+    margin-top: 40px; 
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+
+ 
+
+@media (min-width: 768px){ 
+    .cabeza{
+        width: 100%;
+    }
+    .si{
+       
+        display: flex;
+        justify-content: space-between;
+    }
+    .compra{
+       max-width: 350px; 
+       text-align: right;
+    }
+    .boton{
+        display: none;
+    }
+    .barra{
+        display: flex;
+      
+        justify-content: space-between;
+    }
+    .barra ul{
+        display: flex;
+    }
+    .barra li{
+        margin: 0 5px;
+    }
+    .buscador{
+        display: none;
+    }
+    .buscar{
+        top: 5%;
+        right: 45% ;
+        height: 30px;
+        width: 260px;
+        
+    }
+    .logo{
+        top: 5%;
+        right: 45%;
+        height: 26px;
+        font-size: 23px;
+        margin-top: 3px;
+        
+        
+    }
+    .producto img{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+      
+    }
+    .aveces{
+        
+        
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+
+    }
+    .aveces1{
+        position: none;
+        display: none;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        margin:1px
+    }
+    .producto1, .producto2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 650px;
+        margin: 0;
+    }
+    .aveces{
+        display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 650px;
+    }
+    .fotos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 700px;
+    }
+    .cuerpo-del-footer{
+        margin-top: 3px;
+    }
+ }
+ @media(min-width: 1300px){
+    .main{
+        flex-direction: row;
+        margin-right: 5%;
+    }
+    .producto1, .producto2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 619px
+    }
+    .fotos1{
+        display: flex;
+        justify-content: space-around;
+        width: 1280px;
+    }
+    .cabeza {
+        width: 100%;
+    }
+    
+    
+ }

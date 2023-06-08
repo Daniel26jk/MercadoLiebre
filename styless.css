@@ -1,0 +1,8 @@
+.todo{
+    display: flex;
+    flex-direction: row;
+  
+ }
+ .busqueda{
+    width: 10px;
+ }

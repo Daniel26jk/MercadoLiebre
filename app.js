@@ -5,15 +5,13 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, '/public')));
 
-app.get('/', (req,res) =>{
-   res.send("Cambie");  // Permite enviar texto o codigo HTML
-});
+
 
 app.get('/mostrar_mensaje', (req,res) =>{
     res.send("Hola Mundo");  // Permite enviar texto o codigo HTML
 });
 
-app.get('/mostrar_sitio', (req,res) =>{
+app.get('/', (req,res) =>{
     res.sendFile((__dirname + '/views/index.html'));  // Permite enviar un archivo HTML
 });
 

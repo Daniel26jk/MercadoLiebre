@@ -5,6 +5,7 @@ body{
     font-family:'Roboto', sans-serif;
     margin: 0;
     background-color: #ebebeb;
+  
 }
 
 .cabeza{
@@ -22,7 +23,7 @@ body{
 
 }
 .logoMeli{
-    width: 200px;
+    width: 140px;
 }
 .compra{
     font-weight: 400;
@@ -238,6 +239,9 @@ img{
  
 
 @media (min-width: 768px){ 
+    .logoMeli{
+        width: 200px;
+    }
     .barra-buscador{
         height: 30px;
         margin-left: 125px;
@@ -334,6 +338,9 @@ img{
     }
  }
  @media(min-width: 1270px){
+    .logoMeli{
+        width: 286px;
+    }
     
     .main{
         flex-direction: row;

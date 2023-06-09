@@ -9,10 +9,17 @@
     <title>mercado</title>
 </head>
 <body>
-    <header class="cabeza">
+    <header class="cabeza"><!-- logo meli, barra de busqueda, menu, mensaje de compra en cuotas -->
         <div class="si">
-            <img src="/img/logo-mercado-liebre.svg" class="logoMeli"><input type="text" class="buscar" >
-            <i class="fa-solid fa-magnifying-glass logo"></i>
+          <div class="barra-derecha" >
+            <img src="/img/logo-mercado-liebre.svg" class="logoMeli">
+              <div class="barra-buscador">
+                 <input type="search" class="" aria-colspan="buscar">
+                 <button type="submit" class="btn">
+                 <i class="fa-solid fa-magnifying-glass"></i> 
+              </div>   
+          </div> 
+            
             <h2 class="compra"><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de credito</h2>
 
         </div>
@@ -29,15 +36,16 @@
             </ul>
             <ul class="derecha">
                 <li><a href="#">Crea tu cuenta <i class="fa-regular fa-credit-card"></i></a></li>
-                <li><a href="#">Ingresa</a></li>
-                <li><a href="#">Compra</a></li>
+                <li><a href="#">Ingresa <i class="fa-solid fa-users-rectangle"></i></a></li>
+                <li><a href="#">Compra <i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
         </nav>
 
     </header>
      <img src="/img/img-home-banner.jpg" class="texto"> 
      <h2 class="visita"> Basado en tu ultima visita</h2>
-<section class="main">
+<main><!-- todos los productos y descripciones -->
+ <section class="main">
 <div class="todo">
   <div class="fotos1">
       <article class="producto1">
@@ -123,7 +131,7 @@
 
    
 </div>
-</section>
+ </section>
         
     </div>
     <h2 class="visita"> Ofertas</h2>
@@ -214,10 +222,11 @@
        
     </div>
     </section>
+</main>
             
         </div>
-        <footer class="footer">
-            <!--El footer deberá tener las siguientes secciones:​-->
+        <footer class="footer"> <!-- todo el spam jeje -->
+            
             <div class="footer-todo">
             <section class="section-footer">
                 <i class="fa-solid fa-credit-card"></i>
@@ -239,6 +248,7 @@
                 <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
             </section>  
              
-        </footer>    
+        </footer> 
+   
 </body>
 </html>

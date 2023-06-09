@@ -10,10 +10,16 @@ body{
 .cabeza{
     background-color: #EAC926;
     padding: 20px;
+}
+.barra-derecha{
+    display: flex;
+    align-items: center;
     
-    top: 0;
-    
-   
+}
+.barra-buscador{
+    margin-left: 46px;
+    display: flex;
+
 }
 .logoMeli{
     width: 200px;
@@ -50,17 +56,8 @@ body{
     font-size: 17px;
     
 }
-.buscador{
-    text-align: right;
-    justify-content: space-between;
-    display: flex;
-    max-width: 100px;
-}
-.buscar{
-    position: absolute;
-    top: 4%;
-    right: 5%;
-}
+
+
 .logo{
     position: absolute;
     top: 4%;
@@ -69,6 +66,9 @@ body{
     height:20px ;
     padding-left: 1px;
 }
+/* hasta aqui el header  */
+
+/* aqui empieza el main*/
 .visita{
     margin-left: 13px;
     
@@ -196,6 +196,8 @@ img{
 .visita{
     text-align: center;
 }
+/* aqui empieza el spam */
+
 .footer{
     padding-top: 29px;
 }
@@ -236,6 +238,11 @@ img{
  
 
 @media (min-width: 768px){ 
+    .barra-buscador{
+        height: 30px;
+        margin-left: 125px;
+        width: 100px;
+    }
     .cabeza{
         width: 100%;
     }
@@ -327,6 +334,7 @@ img{
     }
  }
  @media(min-width: 1270px){
+    
     .main{
         flex-direction: row;
         margin-right: 5%;
